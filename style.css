@@ -1,0 +1,48 @@
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Estilo del encabezado */
+h1 {
+  text-align: center;
+  color: #1e3a8a; /* azul elegante */
+  margin-bottom: 20px;
+}
+
+/* Estilo de la imagen principal */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+}
+
+/* Párrafos */
+p {
+  max-width: 800px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+}
+
+/* Movie Rating */
+strong {
+  color: #1e40af;
+}
+
+span[aria-hidden="true"] {
+  color: #facc15; /* amarillo para estrellas */
+  font-size: 1.2em;
+}
